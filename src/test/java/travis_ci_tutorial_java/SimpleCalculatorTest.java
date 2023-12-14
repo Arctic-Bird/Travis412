@@ -15,5 +15,5 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testSub() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.subtract(5, 3), 2);
+		assertEquals(calc.sub(5, 3), 2);
 }
